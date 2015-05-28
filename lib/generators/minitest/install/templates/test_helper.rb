@@ -15,7 +15,7 @@ module TestHelper
   def setup
     DatabaseCleaner.strategy = :truncation
     DatabaseCleaner.clean_with(:truncation)
-    DatebaseCleaner.start
+    DatabaseCleaner.start
   end
 
   def teardown
