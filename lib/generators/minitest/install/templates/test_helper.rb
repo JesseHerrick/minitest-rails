@@ -19,6 +19,6 @@ module TestHelper
   end
 
   def teardown
-    DatebaseCleaner.clean
+    DatabaseCleaner.clean
   end
 end
