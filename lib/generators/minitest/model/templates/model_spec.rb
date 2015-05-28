@@ -2,6 +2,8 @@ require "test_helper"
 
 <% module_namespacing do -%>
 describe <%= class_name %> do
+  include TestHelper
+
   let(:<%= file_name %>) { <%= class_name %>.new }
 
   it "must be valid" do
