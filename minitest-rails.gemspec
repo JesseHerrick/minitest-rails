@@ -32,6 +32,8 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<minitest>, ["~> 5.4"])
       s.add_dependency(%q<railties>, ["~> 4.1"])
+      s.add_dependency(%q<database_cleaner>)
+      s.add_dependency(%q<fabrication>)
       s.add_dependency(%q<rdoc>, ["~> 4.0"])
       s.add_dependency(%q<fakefs>, ["= 0.4.3"])
       s.add_dependency(%q<hoe>, ["~> 3.13"])
